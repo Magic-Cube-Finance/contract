@@ -761,17 +761,6 @@ abstract contract ReentrancyGuard {
 pragma solidity >=0.6.0 <0.8.0;
 pragma experimental ABIEncoderV2;
 
-// import "/mnt/c/code_project/rswap/mf-sol/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol";
-// import "/mnt/c/code_project/rswap/mf-sol/node_modules/@openzeppelin/contracts/math/SafeMath.sol";
-// import "/mnt/c/code_project/rswap/mf-sol/node_modules/@openzeppelin/contracts/utils/Address.sol";
-// import "contracts/libraries/Upgradable.sol";
-// import "contracts/libraries/TransferHelper.sol";
-// import "contracts/libraries/IUniswapV2Router01.sol";
-// import "contracts/libraries/IUniswapV2Pair.sol";
-// import "contracts/libraries/IUniswapV2Factory.sol";
-// import "/mnt/c/code_project/rswap/mf-sol/node_modules/@openzeppelin/contracts/utils/ReentrancyGuard.sol";
-
-// 魔法值等于当前 LP的美金价值的3倍 (1美金兑换3魔力值)
 
 contract MF is UpgradableProduct, ReentrancyGuard {
     using SafeMath for uint256;
