@@ -862,12 +862,6 @@ contract UpgradableGovernance {
  */
 pragma solidity >=0.6.0 <0.8.0;
 
-// import "/mnt/c/code_project/rswap/mf-sol/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol";
-// import "/mnt/c/code_project/rswap/mf-sol/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol";
-// import "/mnt/c/code_project/rswap/mf-sol/node_modules/@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol";
-// import "/mnt/c/code_project/rswap/mf-sol/node_modules/@openzeppelin/contracts/token/ERC20/ERC20Pausable.sol";
-// import "/mnt/c/code_project/rswap/mf-sol/node_modules/@openzeppelin/contracts/math/SafeMath.sol";
-// import "contracts/libraries/Upgradable.sol";
 
 contract TokenDetail is ERC20, ERC20Burnable, ERC20Pausable, UpgradableProduct {
     using SafeMath for uint256;
